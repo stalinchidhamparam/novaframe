@@ -436,6 +436,7 @@ const App: React.FC = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mt-10 place-items-center">
+
           {/* Team Member 1 */}
           <div className="relative grid h-[30rem] w-[21rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
             <div
