@@ -35,6 +35,7 @@ import brand3 from "./Assests/clients/encoded.png";
 import brand4 from "./Assests/clients/outbox.png";
 import brand5 from "./Assests/clients/butterfly.png";
 import brand6 from "./Assests/clients/taamaraa.png";
+import brand7 from "./Assests/clients/Senthur Event.png";
 
 import emailjs from 'emailjs-com';
 import clsx from 'clsx';
@@ -131,6 +132,7 @@ const App: React.FC = () => {
 
   ];
   const clients1 = [
+    { img: brand7, name: "Senthur Events" },
     { img: brand1, name: "Yasho Jewellers" },
     { img: brand6, name: "Taamaraa Indian Cuisine" },
     { img: brand2, name: "Liza Products" },
@@ -566,22 +568,20 @@ const App: React.FC = () => {
 
             </div>
             <h3 className='mt-4  font-bold text-center text-gray-500 dark:text-gray-400 sm:text-xl'>Our Creater Partners</h3>
-            <div className=" max-w-full md:overflow-hidden overflow-y-hidden pb-4 overflow-scroll">
-              <div className="flex  animate-marquee">
-                <div className="inline-flex items-center">
-                  {clients.map((item: any, index: number) => (
-                    <div className='flex-col-reverse justify-center items-center'>
-                      <div key={index} className="h-42 w-52"> {/* height: 50px, width: 50px */}
-                        <img
-                          alt="Transistor"
-                          src={item.img}
-                          className="md:h-full md:w-full object-cover"
-                        />
-                      </div>
-                      <div className='text-center  text-gray-600 font-bold'>{item.name}</div>
+            <div className="max-w-full overflow-hidden pb-4">
+              <div className="flex w-max animate-marquee">
+                {clients.concat(clients).map((item: any, index: number) => ( 
+                  <div key={index} className="flex flex-col items-center mx-4">
+                    <div className="h-42 w-52">
+                      <img
+                        alt="Transistor"
+                        src={item.img}
+                        className="md:h-full md:w-full object-cover"
+                      />
                     </div>
-                  ))}
-                </div>
+                    <div className="text-center text-gray-600 font-bold">{item.name}</div>
+                  </div>
+                ))}
               </div>
             </div>
             {/* <div className='flex justify-end font-bold md:hidden '>
