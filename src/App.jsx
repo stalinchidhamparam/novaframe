@@ -21,6 +21,7 @@ import PackageComparison from './components/PackageComparison';
 import PackageDetail from './components/PackageDetail'
 import NeonCursorTrail from './stocks/NeonCursorTrail';
 
+
 const App = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [startReveal, setStartReveal] = useState(false);
