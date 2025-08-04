@@ -1,0 +1,19 @@
+{
+  "name": "contact-form-backend",
+  "version": "1.0.0",
+  "description": "A backend server for handling contact form submissions and sending emails via Nodemailer.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-functions": "^6.4.0",
+    "nodemailer": "^6.10.1"
+  },
+  "type": "commonjs"
+}
