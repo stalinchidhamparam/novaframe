@@ -14,14 +14,14 @@ const testimonials = [
     },
     {
         id: 2,
-        name: 'Market Scale Trading',
-        title: 'Trading Academy',
+        name: 'Merry Berry',
+        title: 'Franchise',
         video: merryberry,
     },
     {
         id: 3,
-        name: 'Merry Berry',
-        title: 'Franchise',
+        name: 'Market Scale Trading',
+        title: 'Trading Academy',
         video: trading,
     },
     {
