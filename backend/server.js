@@ -14,21 +14,21 @@ app.post('/api/send-email', async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'novaframesdev@gmail.com',
-      pass: 'hrmcqgdmggamjwrp', // Consider using environment config instead
+      user: 'novaframes02@gmail.com',
+      pass: 'ihctqwihcrhxlxzd'
     }
   });
 
   try {
     await transporter.sendMail({
-      from: 'novaframesdev@gmail.com',
-      to: 'novaframesdev@gmail.com',
+      from: 'novaframes02@gmail.com',
+      to: 'novaframes02@gmail.com',
       subject: `New message from ${name}`,
       html: `<p>${message}</p><p>Phone: ${phone}</p><p>Email: ${email}</p><p>Services: ${services}</p>`
     });
 
     await transporter.sendMail({
-      from: 'novaframesdev@gmail.com',
+      from: 'novaframes02@gmail.com',
       to: email,
       subject: 'We received your message',
       html: `<p>Hi ${name},</p><p>Thank you for contacting us!</p>`
