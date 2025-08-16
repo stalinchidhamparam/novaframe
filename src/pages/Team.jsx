@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
-import Developer from '../assets/Developer.jpg';
+import Developer from '../assets/Kavin.jpg';
 import COfounder from '../assets/COfounder.png';
 import CEO from '../assets/CEO.jpeg';
 import { Star, Sparkles, Heart, Award, Code, Film, Users, Zap } from 'lucide-react';

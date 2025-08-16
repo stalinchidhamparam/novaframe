@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Developer from '../assets/Developer.jpg';
 import COfounder from '../assets/COfounder.png';
 import CEO from '../assets/CEO.jpeg';
+import KAVIN from '../assets/Kavin.jpg';
 import { Star, Sparkles, Heart, Award, Code, Film, Users, Zap } from 'lucide-react';
 
 const Founders = () => {
@@ -39,7 +40,7 @@ const Founders = () => {
     {
       name: "Kavin",
       role: "Co-Founder",
-      image: Developer,
+      image: KAVIN,
       bio: "Software Developer with 4 years of experience in building efficient, scalable web applications.",
       color: "from-emerald-400 via-teal-400 to-cyan-400",
       bgColor: "from-emerald-500/20 to-teal-500/20",
