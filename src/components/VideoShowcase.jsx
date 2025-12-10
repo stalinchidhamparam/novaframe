@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Play, Pause, Volume2, VolumeX } from 'lucide-react';
 import vastiram from '../assets/videos/vastiram.mp4';
 import yasho from '../assets/videos/yasho.mp4';
-import chennaifitness from '../assets/videos/chennaifitness.mp4';
+import chennaifitness from '../assets/videos/chennai.mp4';
 import merryberry from '../assets/videos/merryberry.mp4';
 
 const testimonials = [
