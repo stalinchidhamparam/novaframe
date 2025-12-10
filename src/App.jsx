@@ -1,7 +1,6 @@
 // src/App.jsx
 import React, { useEffect, useState, Suspense, useRef } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import Navbar from './components/Navbar';
 import ScrollToTop from './components/ScrollTop';
 import Footer from './components/Footer';
