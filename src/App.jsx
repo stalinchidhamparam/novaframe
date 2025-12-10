@@ -15,7 +15,6 @@ import Team from './pages/Team';
 import Brand from './pages/Brand';
 import SoftwareDev from './pages/SoftwareDev';
 import DigitalMarketing from './pages/DigitalMarketing';
-// import AboutSection from './pages/AboutSection';
 import ContactSection from './pages/ContactSection';
 import PackageComparison from './components/PackageComparison';
 import PackageDetail from './components/PackageDetail'
