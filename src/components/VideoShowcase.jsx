@@ -23,6 +23,9 @@ const testimonials = [
         name: 'Chennai Fitness',
         title: 'Reels',
         video: chennaifitness,
+        name: 'Chennai Fitness',
+        title: 'Reels',
+        video: chennaifitness,
     },
     {
         id: 4,
